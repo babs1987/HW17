@@ -10,11 +10,11 @@ def singleton(cls):
 
 
 @singleton
-class ThisIsSingletonNow:
+class Hello:
     pass
 
-a = ThisIsSingletonNow()
-a.x=5
+hello1 = Hello()
+hello1.name = 'Gosha'
 
-b = ThisIsSingletonNow()
-print(b.x)
+hello2 = Hello()
+assert hello2.name == 'Gosha'

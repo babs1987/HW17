@@ -13,6 +13,6 @@ class Links:
 
 
 a = Links("../14-gen-and-magic/w3.html")
-b= Links("../14-gen-and-magic/w4.html")
+
 print(a())
 

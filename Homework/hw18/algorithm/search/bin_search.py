@@ -21,18 +21,4 @@ def bin_search(ary, el):
         return bin_search(ary[:center], el)
 
 
-# for size in range(1, 1000, 10):
-#     ary = [randint(-1000000, 1000000) for _ in range(100 * size)]
-#     ary.sort()
-#     el = randint(-1000000, 1000000)
-#
-#     start = time_ns()
-#     bin_search(ary, el)
-#     print(f'Size {size}: {time_ns() - start}')
 
-
-# Size 101: 999900
-# Size 921: 7001700
-
-# Size 201: 998100
-# Size 921: 2001600
